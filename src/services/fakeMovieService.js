@@ -64,6 +64,76 @@ const movies = [
     genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
     numberInStock: 7,
     dailyRentalRate: 3.5
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd471822",
+    title: "Mission Impossible",
+    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
+    numberInStock: 5,
+    dailyRentalRate: 3.0
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd471823",
+    title: "John Wick",
+    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
+    numberInStock: 4,
+    dailyRentalRate: 3.5
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd471824",
+    title: "Split",
+    genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
+    numberInStock: 5,
+    dailyRentalRate: 3.5
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd471825",
+    title: "Prisoners",
+    genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
+    numberInStock: 6,
+    dailyRentalRate: 4.0
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd471826",
+    title: "Superbad",
+    genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
+    numberInStock: 8,
+    dailyRentalRate: 3.0
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd471827",
+    title: "Step Brothers",
+    genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
+    numberInStock: 9,
+    dailyRentalRate: 2.5
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd471828",
+    title: "Logan",
+    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
+    numberInStock: 5,
+    dailyRentalRate: 4.0
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd471829",
+    title: "Arrival",
+    genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
+    numberInStock: 5,
+    dailyRentalRate: 3.5
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd47182a",
+    title: "Paranormal Activity",
+    genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
+    numberInStock: 6,
+    dailyRentalRate: 2.5
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd47182b",
+    title: "Spy",
+    genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
+    numberInStock: 7,
+    dailyRentalRate: 3.0
   }
 ];
 
