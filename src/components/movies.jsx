@@ -7,7 +7,11 @@ class Movies extends Component {
     movies: getMovies(),
   };
   handleLike = (movie) => {
-    console.log("clicked", movie);
+    const movies = [...this.state.movies];
+    const index = movies.indexOf(movie);
+    movies[index] = { ...movies[index] };
+    movies[index].liked = !movies[index].liked;
+    this.setState({ movies });
   };
 
   handleDelete = (movie) => {
